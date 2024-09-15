@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Master</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="head">Money Master</header>
+    <main>
+        <section class="main_section">
+            <div>
+                <img class="img" src="/image/money-master.jpg" alt="Picture of Money">
+            </div>
+            <div class="form_div">
+              
+                <h1 class="income">Income</h1>
+                <label for="">Income:</label>
+                <input id="income" class="input" type="text" placeholder="10000"> 
+                <h1 class="income">Expenses</h1>
+                <label class="lab" for="">Food:</label>
+                <input id="food"  class="input" type="text" placeholder="3000"> <br>
+                <label class="lab" for="">Rent:  </label>
+                <input id="rent" class="input" type="text" placeholder="2000"> <br>
+                <label class="lab" for="">Clothes:</label>
+                <input id="clothes" class="input" type="text" placeholder="500"> <br>
+                <button id="calculate" class = "calculate_btn">Calculate</button>
+                <h1>Total Expenses: <span id="expenses">5500</span></h1>
+                <h1>Balance: <span id="balance">4500</span></h1>
+               
+                   <div class="save_div">
+                    <label class="save_lab">save: </label>
+                    <input id="save" class="save_input" type="text" placeholder="20">
+                    <label class="save_lab">%</label>
+                    <button id="save_btn" class="save_btn">save</button>
+                   </div>
+                    <h1>Saving Amount: <span id="saving_amount">2000</span></h1>
+                    <h1>Remaining Balance: <span id="remaining">2500</span></h1>
+            
+            </div>
+        </section>
+    </main>
+    <script src="/js/script.js"></script>
+</body>
+</html>
